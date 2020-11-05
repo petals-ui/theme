@@ -1,8 +1,7 @@
 {
-  "name": "@petals/template",
+  "name": "@petals/theme",
   "version": "0.0.0",
-  "description": "Scaffold template for petals (components)",
-  "private": true,
+  "description": "Theme virtual component",
   "main": "style.scss",
   "sass": "style.scss",
   "scripts": {
@@ -18,15 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petals-ui/template.git"
+    "url": "git+https://github.com/petals-ui/theme.git"
   },
   "author": "Ourai Lin <ourairyu@gmail.com> (https://ourai.ws/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/petals-ui/template/issues"
+    "url": "https://github.com/petals-ui/theme/issues"
   },
-  "homepage": "https://github.com/petals-ui/template",
+  "homepage": "https://github.com/petals-ui/theme",
   "devDependencies": {
+    "@petals/border": "0.0.1",
+    "@petals/state": "0.0.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.2.0",
@@ -35,6 +36,7 @@
     "gulp-shopify-sass": "^0.3.3",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-strip-css-comments": "^2.0.0",
+    "gulp-style-aliases": "^1.1.11",
     "prettier": "^2.1.2"
   }
 }

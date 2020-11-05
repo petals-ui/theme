@@ -1,3 +1,3 @@
-# Petals Template
+# Petals Theme
 
-Scaffold template for petals (components)
+Theme virtual component
